@@ -1,0 +1,85 @@
+{
+    "journal": {
+      "nomJournal": "CyberW0W",
+      "phraseAccroche": "Votre source d'informations sur la cybersécurité et la protection des données",
+      "texteAppelAction": "Inscrivez-vous à notre newsletter pour rester protégé en ligne !",
+      "articlePrincipal": {
+        "titre": "Les dernières menaces cybernétiques et comment s'en protéger",
+        "description": "Restez informé sur les tendances actuelles en matière de cybersécurité et apprenez à protéger vos données.",
+        "date": "25 Avril 2024",
+        "theme": "Cybersécurité",
+        "image":""
+      },
+      "articles": [
+        {
+          "titre": "Attaques de ransomware en hausse : comment prévenir et réagir",
+          "date": "20 Avril 2024",
+          "theme": "Ransomware",
+          "image":""
+        },
+        {
+          "titre": "Entretien avec un expert en sécurité informatique : les défis de la protection des données",
+          "date": "15 Avril 2024",
+          "theme": "Interview",
+          "image":""
+        },
+        {
+          "titre": "Top 10 des pratiques de sécurité en ligne pour les entreprises",
+          "date": "5 Avril 2024",
+          "theme": "Conseils",
+          "image":""
+        },
+        {
+          "titre": "Analyse des cyberattaques les plus courantes en 2024",
+          "date": "28 Mars 2024",
+          "theme": "Analyse",
+          "image":""
+        },
+        {
+          "titre": "L'importance de la sensibilisation à la sécurité informatique dans les organisations",
+          "date": "20 Mars 2024",
+          "theme": "Sensibilisation",
+          "image":""
+        }
+      ],
+      "themes": [
+        {
+          "nom": "Ransomware",
+          "description": "Articles et conseils sur la prévention et la réaction aux attaques de ransomware."
+        },
+        {
+          "nom": "Interview",
+          "description": "Entretiens avec des experts en cybersécurité pour mieux comprendre les défis et les solutions."
+        },
+        {
+          "nom": "Conseils",
+          "description": "Conseils pratiques pour renforcer la sécurité en ligne des entreprises et des particuliers."
+        },
+        {
+          "nom": "Analyse",
+          "description": "Analyses approfondies des tendances et des techniques des cyberattaques actuelles."
+        },
+        {
+          "nom": "Sensibilisation",
+          "description": "Articles sur l'importance de la sensibilisation à la sécurité informatique et la formation des utilisateurs."
+        }
+      ],
+      "auteurs": [
+        {
+          "prenom": "Marie",
+          "typeExperience": "Expert en cybersécurité",
+          "presentation": "Avec des années d'expérience dans le domaine de la cybersécurité, je vous offre des analyses approfondies et des conseils pratiques pour vous protéger en ligne."
+        },
+        {
+          "prenom": "Antoine",
+          "typeExperience": "Consultant en sécurité informatique",
+          "presentation": "Je travaille avec les entreprises pour renforcer leur cybersécurité et je partage mes connaissances à travers des conseils et des analyses accessibles à tous."
+        },
+        {
+          "prenom": "Sophie",
+          "typeExperience": "Journaliste spécialisée en sécurité informatique",
+          "presentation": "En tant que journaliste spécialisée, je vous tiens informé des dernières menaces et des meilleures pratiques en matière de cybersécurité pour vous aider à rester en sécurité en ligne."
+        }
+      ]
+    }
+  }
