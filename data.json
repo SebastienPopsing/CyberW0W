@@ -15,31 +15,31 @@
           "titre": "Attaques de ransomware en hausse : comment prévenir et réagir",
           "date": "20 Avril 2024",
           "theme": "Ransomware",
-          "image":""
+          "image":"assets/article1_ransomware_img.jpg"
         },
         {
           "titre": "Entretien avec un expert en sécurité informatique : les défis de la protection des données",
           "date": "15 Avril 2024",
           "theme": "Interview",
-          "image":""
+          "image":"assets/article2_interview_img.jpg"
         },
         {
           "titre": "Top 10 des pratiques de sécurité en ligne pour les entreprises",
           "date": "5 Avril 2024",
           "theme": "Conseils",
-          "image":""
+          "image":"assets/article3_conseils_img.png"
         },
         {
           "titre": "Analyse des cyberattaques les plus courantes en 2024",
           "date": "28 Mars 2024",
           "theme": "Analyse",
-          "image":""
+          "image":"assets/article4_analyse_img.png"
         },
         {
           "titre": "L'importance de la sensibilisation à la sécurité informatique dans les organisations",
           "date": "20 Mars 2024",
           "theme": "Sensibilisation",
-          "image":""
+          "image":"assets/article_5_sensibilisation_img.jpg"
         }
       ],
       "themes": [
