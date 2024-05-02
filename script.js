@@ -70,14 +70,30 @@ let auteurs = data.journal.auteurs;
 auteurs.forEach((auteur, index) => {
   let prenomAuteur = auteur.prenom;
   let presentation = auteur.presentation;
+  let imageAuteur = auteur.image;
 
   let auteurNomReplacement = document.querySelectorAll('.team_member_name')[index];
   let auteurRoleReplacement = document.querySelectorAll('.team_member_role')[index];
+  let auteurImageReplacement = document.querySelectorAll('.team_member_image')[index];
 
   auteurNomReplacement.textContent = prenomAuteur;
   auteurRoleReplacement.textContent = presentation;
+  auteurImageReplacement.src = imageAuteur;
 });
 
+
+let themes = data.journal.themes;
+
+themes.forEach((theme, index) => {
+  let nomTheme = theme.nom;
+  let descriptionTheme = theme.description;
+
+  let themeNomReplacement = document.querySelectorAll('.theme_nom')[index];
+  let themeDescriptionReplacement = document.querySelectorAll('.theme_description')[index];
+
+  themeNomReplacement.textContent = nomTheme;
+  themeDescriptionReplacement.textContent = descriptionTheme;
+});
 
 
 /// FIN DU CODE
@@ -88,5 +104,5 @@ auteurs.forEach((auteur, index) => {
 
  getData();
 
- ///ON écrit les fonctions ici
+
  
