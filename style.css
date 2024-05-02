@@ -8,7 +8,7 @@ h1,h2,h3{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Logo */
+
 .nav_logo{
     height: 80px;
     width: auto;
@@ -36,7 +36,7 @@ nav {
     padding-right: 50px;
 }
 
-/* Navigation List */
+
 ul{
     list-style: none;
 }
@@ -44,6 +44,7 @@ ul{
 ul li{
     display: inline;
 }
+
 ul li a{
     text-decoration: none;
     margin: 15px;
@@ -56,7 +57,6 @@ ul li a:hover{
     color: darkred
 }
 
-/* Contact Button */
 .subscribe_button{
     background:black;
     margin-right: 35px;
@@ -68,7 +68,6 @@ ul li a:hover{
     color: white;
     text-decoration: none;
 }
-
 
 .subscribe_button:hover{
     border: 2px solid darkred;
@@ -103,11 +102,15 @@ header {
     height: 150px;
     object-fit: cover;
     border-radius: 5px;
-  }
+}
+
 .team_member_image {
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 100%;
 }
-  
+
+.big_title {
+    text-align: center;
+}
