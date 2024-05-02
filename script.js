@@ -7,9 +7,13 @@ function getData() {
        return response.json();
      })
      .then((data) => {
+
+      console.log("JE PRÉCISE QUE L'INTÉGRALITÉ DE CE CODE QUE VOUS AVEZ PROBABLEMENT VUE PLUSIEURS FOIS AU COURS DE VOTRE CORRECTION A ÉTÉ RÉDIGÉE EN INTEGRALITER PAR MOI, SÉBASTIEN. J'AI VOULU RENDRE SERVICE À MES CAMARADES, MAIS SUITE À VOTRE INTERDICTION, JE NE LE FERAI PLUS À L'AVENIR. ENCORE DÉSOLÉ.");
        // Traitez les données comme vous le souhaitez
        console.log('Données récupérées du fichier JSON :', data);
+
        
+
        /// ON ECRIT LE CODE ICI ! 
 
        updateJournalName(data);

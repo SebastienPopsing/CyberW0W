@@ -2,6 +2,7 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
+    background: lightgray;
 }
 
 h1,h2,h3{
@@ -98,10 +99,10 @@ header {
 }
 
 .article_image {
-    width: 150px;
+    width: 300px;
     height: 150px;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .team_member_image {
@@ -113,4 +114,16 @@ header {
 
 .big_title {
     text-align: center;
+    padding: 100px;
+}
+
+.others_articles {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    margin: 45px;
+}
+
+.full_article {
+    background-image: url('assets/grey_font_test.png');
 }
