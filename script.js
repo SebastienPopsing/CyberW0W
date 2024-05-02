@@ -48,14 +48,36 @@ let articlePrincipalDescriptionReplacment = document.querySelector('#article_pri
 articlePrincipalDescriptionReplacment.textContent = articlePrincipalDescription;
 
 
-let articleTitre = data.journal.articles[0].titre;
-console.log(articleTitre);
-let articleTheme = data.journal.articles[0].theme;
-console.log(articleTheme);
-let articleDate = data.journal.articles[0].date;
-console.log(articleDate);
-let articleImage = data.journal.articles[0].image;
-console.log(articleImage);
+let articles = data.journal.articles;
+
+articles.forEach((article, index) => {
+  let articleTitre = article.titre;
+  let articleTheme = article.theme;
+  let articleDate = article.date;
+  let articleImage = article.image; 
+
+  let articleTitreReplacement = document.querySelectorAll('.article_title')[index];
+  let articleThemeDateReplacement = document.querySelectorAll('.article_theme_date')[index];
+  let articleImageReplacement = document.querySelectorAll('.article_image')[index];
+
+  articleTitreReplacement.textContent = articleTitre;
+  articleThemeDateReplacement.textContent = `${articleTheme} - ${articleDate}`;
+  articleImageReplacement.src = articleImage; 
+});
+
+let auteurs = data.journal.auteurs;
+
+auteurs.forEach((auteur, index) => {
+  let prenomAuteur = auteur.prenom;
+  let presentation = auteur.presentation;
+
+  let auteurNomReplacement = document.querySelectorAll('.team_member_name')[index];
+  let auteurRoleReplacement = document.querySelectorAll('.team_member_role')[index];
+
+  auteurNomReplacement.textContent = prenomAuteur;
+  auteurRoleReplacement.textContent = presentation;
+});
+
 
 
 /// FIN DU CODE

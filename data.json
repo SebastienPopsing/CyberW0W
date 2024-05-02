@@ -66,19 +66,22 @@
       ],
       "auteurs": [
         {
-          "prenom": "Marie",
+          "prenom": "Nicolox",
           "typeExperience": "Expert en cybersécurité",
-          "presentation": "Avec des années d'expérience dans le domaine de la cybersécurité, je vous offre des analyses approfondies et des conseils pratiques pour vous protéger en ligne."
+          "presentation": "Avec des années d'expérience dans le domaine de la cybersécurité, je vous offre des analyses approfondies et des conseils pratiques pour vous protéger en ligne.",
+          "image": "assets/auteur1_img.jpg"
         },
         {
-          "prenom": "Antoine",
+          "prenom": "Jean-Karim",
           "typeExperience": "Consultant en sécurité informatique",
-          "presentation": "Je travaille avec les entreprises pour renforcer leur cybersécurité et je partage mes connaissances à travers des conseils et des analyses accessibles à tous."
+          "presentation": "Je travaille avec les entreprises pour renforcer leur cybersécurité et je partage mes connaissances à travers des conseils et des analyses accessibles à tous.",
+          "image": "assets/auteur2_img.jpg"
         },
         {
-          "prenom": "Sophie",
+          "prenom": "Garetane",
           "typeExperience": "Journaliste spécialisée en sécurité informatique",
-          "presentation": "En tant que journaliste spécialisée, je vous tiens informé des dernières menaces et des meilleures pratiques en matière de cybersécurité pour vous aider à rester en sécurité en ligne."
+          "presentation": "En tant que journaliste spécialisée, je vous tiens informé des dernières menaces et des meilleures pratiques en matière de cybersécurité pour vous aider à rester en sécurité en ligne.",
+          "image": "assets/auteur3_img.jpg"
         }
       ]
     }
