@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 body{
-    font-family:Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
     background: lightgray;
+    background: black;
 }
 
-h1,h2,h3{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+html{
+    font-family: "Ubuntu", sans-serif;
+    color: white;
 }
+
 
 
 .nav_logo{
@@ -26,13 +32,16 @@ h1,h2,h3{
     font-weight: bold;
     margin-left: 20px;
     margin-top: 25px;
+    color: white;
+    transition: 0.3s;
+    font-family: "Pixelify Sans", sans-serif;
 }
 
 nav {
     display: flex;
     justify-content: space-between; 
     align-items: center; 
-    background: grey;
+    background: black;
     padding: 20px;
     padding-right: 50px;
 }
@@ -49,30 +58,37 @@ ul li{
 ul li a{
     text-decoration: none;
     margin: 15px;
+    padding-right: 30px;
     font-size: 15px;
-    transition: 0.5s;
-    color: black;
+    transition: 0.3s;
+    color: white;
     font-weight: bold;
 }
 ul li a:hover{
-    color: darkred
+    color: #4099fc;
 }
 
 .subscribe_button{
-    background:black;
+    background:white;
+    margin-left: 35px;
     margin-right: 35px;
-    border: 2px solid black;
+    border: 2px solid white;
     padding: 13px;
+    padding-left: 32px;
+    padding-right: 32px;
     border-radius: 40px;
     transition: 0.3s;
     font-size: 15px;
-    color: white;
+    font-weight: bold;
+    color: black;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .subscribe_button:hover{
-    border: 2px solid darkred;
-    background: darkred;
+    border: 2px solid #4099fc;
+    background: #4099fc;
+    color: white;
 }
 
 header {
@@ -84,6 +100,54 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.header_button {
+    border: 3px white solid;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    margin-top: 100px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: 0.7s;
+}
+
+.header_button:hover{
+    background: black;
+}
+
+#highlight_article{
+    background-image: url('assets/black_background.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+#article_principal_title {
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+#highlight_article_container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 45px;
+    max-width: 300px;
+}
+
+#highlight_article_read_button {
+    margin-left: 550px;
+    border: 3px white solid;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    transition: 0.7s;
+    margin-bottom: 50px;
 }
 
 #new_product_title{
@@ -99,11 +163,13 @@ header {
 }
 
 .article_image {
-    width: 300px;
-    height: 150px;
+    width: 350px;
+    height: 200px;
     object-fit: cover;
     border-radius: 10px;
 }
+
+
 
 .team_member_image {
     width: 150px;
@@ -114,9 +180,15 @@ header {
 
 .big_title {
     text-align: center;
-    padding: 100px;
+    color: white;
 }
 
+.second_title {
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
 .others_articles {
     display: flex;
     flex-direction: column;
@@ -125,5 +197,8 @@ header {
 }
 
 .full_article {
-    background-image: url('assets/grey_font_test.png');
+    background-image: url('assets/black_background.webp');
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
 }
