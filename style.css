@@ -150,6 +150,10 @@ header {
     margin-bottom: 50px;
 }
 
+#highlight_article_read_button:hover{
+    background: black;
+}
+
 #new_product_title{
     font-size: 50px;
     font-weight: bold;
@@ -187,13 +191,14 @@ header {
     text-align: center;
     color: white;
     margin-top: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 .others_articles {
     display: flex;
     flex-direction: column;
     gap: 45px;
     margin: 45px;
+    align-items: center;
 }
 
 .full_article {
@@ -201,4 +206,6 @@ header {
     padding: 30px;
     border-radius: 10px;
     max-width: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
